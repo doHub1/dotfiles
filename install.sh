@@ -13,5 +13,5 @@ yes | ~/.fzf/install
 source ~/.bashrc
 
 # finish
-echo ######
+echo "####################################"
 echo installing dotfiles are finished.
