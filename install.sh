@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOT_FILES=(.bashrc .bash_profile .vimrc)
+DOT_FILES=(.vimrc )
 
 for file in ${DOT_FILES[@]}
 do
@@ -12,4 +12,6 @@ git clone https://github.com/junegunn/fzf.git ~/.fzf
 yes | ~/.fzf/install
 source ~/.bashrc
 
-
+# finish
+echo ######
+echo installing dotfiles are finished.
