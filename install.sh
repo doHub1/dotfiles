@@ -12,6 +12,12 @@ git clone https://github.com/junegunn/fzf.git ~/.fzf
 yes | ~/.fzf/install
 source ~/.bashrc
 
+# customize .bashrc
+wget https://github.com/abertsch/Menlo-for-Powerline/blob/master/Menlo%20for%20Powerline.ttf ~
+echo -e "\nexport PS1='\[\e[30;47m\] \t \[\e[37;46m\]\[\e[30m\] \W \[\e[36;49m\]\[\e[0m\] '" >> ~/.bashrc
+echo you need to install font to iterm2 default font to "Menlo for Powerline"
+echo [NOTICE] if you don\'t need custmized bash, type "PS1='\h:\W \u\$ '"
+
 # finish
 echo "####################################"
 echo installing dotfiles are finished.
