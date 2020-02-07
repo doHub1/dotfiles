@@ -2,9 +2,8 @@
 
 ## usage
 
+just paste on new env
 ```
-cd
-git clone https://github.com/doHub1/dotfiles.git
-cd dotfiles
-bash install.sh
+git clone https://github.com/doHub1/dotfiles.git;cd dotfiles;bash install.sh;cd ..;
 ```
+
