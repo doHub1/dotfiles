@@ -18,6 +18,8 @@ source ~/.bashrc
 #echo you need to install font to iterm2 default font to "Menlo for Powerline"
 #echo [NOTICE] if you don\'t need custmized bash, type "PS1='\h:\W \u\$ '"
 
-# finish
+# finishing
+sudo rm -rf dotfiles
 echo "####################################"
 echo installing dotfiles are finished.
+echo please restart your ssh connection.
