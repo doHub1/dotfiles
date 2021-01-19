@@ -1,10 +1,14 @@
 #!/bin/bash
 
+
+mv $HOME/dotfiles $HOME/.config/
+
+
 DOT_FILES=(.vimrc )
 
 for file in ${DOT_FILES[@]}
 do
-  ln -s $HOME/dotfiles/$file $HOME/$file
+  ln -s $HOME/.config/dotfiles/$file $HOME/$file
 done
 
 # install fzf
@@ -20,7 +24,7 @@ echo "alias dc=docker" >> ~/.bashrc
 #echo [NOTICE] if you don\'t need custmized bash, type "PS1='\h:\W \u\$ '"
 
 # finishing
-sudo rm -rf dotfiles
+#sudo rm -rf dotfiles
 echo "####################################"
 echo installing dotfiles are finished.
 echo please restart your ssh connection.
