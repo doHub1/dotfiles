@@ -23,6 +23,14 @@ echo "alias dc=docker" >> ~/.bashrc
 #echo you need to install font to iterm2 default font to "Menlo for Powerline"
 #echo [NOTICE] if you don\'t need custmized bash, type "PS1='\h:\W \u\$ '"
 
+# note
+echo "\n"
+echo "if you want to sudo without password"
+echo "sudo visudo #and add below line"
+echo "<username> ALL=NOPASSWD: ALL"
+echo "\n"
+
+
 # finishing
 #sudo rm -rf dotfiles
 echo "####################################"
